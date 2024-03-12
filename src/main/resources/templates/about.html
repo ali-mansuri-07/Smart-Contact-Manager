@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>About Page</title>
+		<!-- Bootstrap CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font Awesome CSS -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<style>
+			/* Footer */
+			footer {
+				background-color: #f8f9fa;
+				padding: 20px 0;
+				text-align: center;
+			}
+			footer .footer-link {
+				color: #343a40;
+				margin: 10px; /* Updated margin for better spacing */
+			}
+			footer .footer-link i {
+				margin-right: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<section>
+			<div class="container mt-5">
+				<h1 class="text-center mb-4">Welcome to Smart Contact Manager Application</h1>
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<p>
+							The Smart Contact Manager is a responsive web application developed using HTML, CSS, JavaScript, Thymeleaf, Spring Boot, and MySQL.
+							It provides users with authentication and authorization features using Spring Security. Users can sign up and log in to manage their contacts securely.
+						</p>
+						<p>
+							Key features include:
+							<ul>
+								<li>User authentication and authorization</li>
+								<li>Create, update, view, and delete contacts</li>
+								<li>Change password using OTP through email</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+		
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-auto">
+							<a href="https://aliportfolio.pages.dev/" target="_blank" class="footer-link"><i class="fas fa-briefcase"></i> Portfolio</a>
+							<a href="https://www.linkedin.com/in/ali-hussain-mansuri-4aa7a920b/" target="_blank" class="footer-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+							<a href="https://github.com/ali-mansuri-07" target="_blank" class="footer-link"><i class="fab fa-github"></i> GitHub</a>
+							<a href="https://twitter.com/mansuri_ali_51" target="_blank" class="footer-link"><i class="fab fa-twitter"></i> Twitter</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		
+			<!-- Bootstrap JS (optional) -->
+			<script src="https://kit.fontawesome.com/aef5d78e69.js" crossorigin="anonymous"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		</section>
+	</body>
+	</html>
